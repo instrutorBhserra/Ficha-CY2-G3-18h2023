@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?=family=Dosis&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+body{
+    background-color: black;
+    font-size: 20px;
+}
+h1{
+	color: white;
+	text-align: center;
+}
+/*General rules */
+textarea{
+	border-radius: 10px;
+	resize: none;
+}
+input{
+	border-radius: 5px;
+}
+/* Header */ 
+.topo{
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+.container-topo{
+	background-color: whitesmoke;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	align-items: center;
+	justify-items: center;
+	width: 900px;
+	height: 150px;
+}
+.container-topo>div p{
+	font-size: 20px;
+	text-align: center;
+}
+
+.container-topo>div input{
+	height: 30px;
+	width: 200px;
+	padding-left: 10px;
+}
+/*Main*/
+.conteiner-conteudo-principal{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 10vw;
+}
+.sessao-conteudo-principal{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 30px;
+}
+.container-modificadores{
+	width: 900px;
+	height: 600px;
+	background-color: whitesmoke;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 50px 0px;
+}
+.container-modificadores>div>p{
+	text-align: center;
+	font-weight: bold;
+}
+.container-modificadores>div>input{
+	width:100%;
+	height: 30px;
+	padding-left: 10px;
+}
+/*vdv*/
+.container-vdv-img{
+	display: flex;
+	flex-direction: column;
+}
+.container-vdv{
+	width: 100%;
+	height: 150px;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	align-items: center;
+	justify-items: center;
+	padding-left: 50px;
+}
+.container-vdv>div p{
+	text-align: center;
+	font-size: 25px;
+}
+.container-vdv>div input{
+	height: 30px;
+	width: 95%;
+	padding: 5px;
+}
+container-img{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container-img img{
+	width: 80%;
+	height: 100%;
+	padding-left: 50px;
+}
+/*Biografia*/
+.container-biografia{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.container-biografia h2{
+	padding-bottom: 15px;
+}
+.container-biografia textarea{
+	resize: none;
+	padding: 5px 10px;
+	font-size: 15px;
+}
+/*Conteudo secondario*/
+.sessao-conteudo-secundario{
+	width: 900px;
+	height: 300px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items: center;
+	background-color: whitesmoke;
+}
+.sessao-conteudo-secundario>div>h2{
+	padding-bottom: 15px;
+}
+.sessao-conteudo-secundario>div>textarea{
+	width: 88%;
+	resize: none;
+}
+.container-equipamento{
+	width: 100%;
+	text-align: center;
+}
+.conteiner-caracteristicas{
+	width: 100%;
+	text-align: center;
+}
+/*Footer*/
+footer{
+	width: 100vw;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+}
+.container-rodape{
+	width: 900px;
+	background-origin: #ddd;
+	text-align: center;
+}
+.container-rodape a{
+	list-style: center;
+	font-size: 15px;
+	font-style: italic;
+	padding: 10px;
+}
+/*Container vdv */
+.container-vdv-img{
+	display:flex;
+	flex-direction: column;
+}
+.container-vdv{
+	background-color: whitesmoke;
+	width: 100%;
+	height: 150px;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	align-items: center;
+	justify-items: center;
+	padding-left: 50px;
+}
+.container-vdv>div p{
+	text-align: center;
+	font-size: 25px;
+}
+.container-vdv>div input{
+	height: 30px;
+	width: 95%;
+	padding: 5px;
+}
+.continer-img{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container-img img{
+	width: 80%;
+	height: 100%;
+	padding-left: 50px;
+}
+/* Container biografia */
+.container-biografia{
+	background-color: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.container-biografia h2{
+	padding-bottom: 15px;
+}
+.container-biografia textarea{
+	resize: none;
+	padding: 5px 10px;
+	font-size: 15px;
+}
+/* Sessão conteudo */
+.sessao-conteudo-secundario{
+	width: 900px;
+	height: 300px;
+	display: flex;
+	grid-template-columns: 1fr 1fr;
+	justify-items: center;
+	background-color: whitesmoke;
+}
+.sessao-conteudo-secundario>div>h2{
+	padding-bottom: 15px;
+}
+.sessao-conteudo-secundario>div>textarea{
+	width: 88%;
+	resize:none;
+}
+.container-equipamento{
+	width: 80%;
+	text-align: center;
+}
+.conteiner-caracteristicas{
+	width: 100%;
+	text-align: center;
+}
+/* Footer */
+footer{
+	width: 100vw;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+}
+.container-rodape{
+	width: 900px;
+	background-color: #ddd;
+	text-align: center;
+}
+.container-rodape a {
+	list-style: none;
+	font-size: 15px;
+	font-style: italic;
+	padding: 10px;
+}

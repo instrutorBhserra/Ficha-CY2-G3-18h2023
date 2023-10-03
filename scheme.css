@@ -1,0 +1,17 @@
+/* Comment */
+html{ background-color: #333; } /* ← Rule */
+/*  ↓↓ Selector */
+    h1{
+    /*  ↓↓↓↓↓↓↓↓↓↓↓↓ Declaration*/
+        margin: 0px;
+    /*  ↓↓↓↓↓ Property  */
+        color: white;
+    /*       ↑ Collon ( Separates value and property )*/
+    /*                  ↓↓↓↓↓  Value */
+    background-color: black;
+/* Separa duas declarações   ↑ Collon ( separator ) */
+    text-align: center;
+}
+body{
+    margin: 0px;
+}
